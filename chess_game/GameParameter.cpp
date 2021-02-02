@@ -1,0 +1,20 @@
+#include"GameParameter.h"
+const int GameParameter::BOARDWIDTH = 9;
+const int GameParameter::BOARDHEIGHT = 10;
+const float GameParameter::FRAMERATE = 0.33f;
+const int GameParameter::REDRIVERSIDE = 5;
+const int GameParameter::BLACKRIVERSIDE = 4;
+const int GameParameter::PALACELEFT = 3;
+const int GameParameter::PALACERIGHT = 5;
+const int GameParameter::REDPALACETOP = 7;
+const int GameParameter::BLACKPALACETOP = 2;
+const int GameParameter::OFFSET_BOARD_X = 36;
+const int GameParameter::OFFSET_BOARD_Y = 2;
+const int GameParameter::OFFSET_RECORD_X = 6;
+const int GameParameter::OFFSET_RECORD_Y = 2;
+const int GameParameter::OFFSET_INFO_TURN_X = 86;
+const int GameParameter::OFFSET_INFO_TURN_Y = 4;
+const int GameParameter::OFFSET_INFO_CHESS_X = 80;
+const int GameParameter::OFFSET_INFO_CHESS_Y = 7;
+const int GameParameter::PLAYER_ROUND = 1;
+const int GameParameter::AI_ROUND = 0;
